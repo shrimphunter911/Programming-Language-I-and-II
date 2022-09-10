@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class task5
+{
+  public static void main(String []args)
+  {
+    Scanner sc= new Scanner(System.in);
+    System.out.println("Enter the value of N");
+    int n=sc.nextInt();
+    int s=0;
+    for(int i=1;i<=n;i++)
+    {
+      s=s+math.pow(i,3);
+    }
+    int y=math.cbrt(s);
+    System.out.println("Y="+y);
+  }
+}
